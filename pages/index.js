@@ -18,7 +18,7 @@ class Marvel extends Component {
         return (
             
            
-            <div className="mt-5">
+            <div className="">
             
             
             <SearchChara 

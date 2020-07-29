@@ -54,9 +54,9 @@ const SearchChara = () => {
   return (
     <>
 
-      <div className="bg-fixed min-h-screen" style={{ background: "url('e4ec22a31fc5546b68b5ef001ca6372b.jpg')" , backgroundSize:"cover"}}>
-        <h3 className="w-1/3 mx-auto text-center font-semibold text-dyc-red">Which Character</h3>
-        <div className="w-1/3 mx-auto">
+      <div className="bg-fixed min-h-screen"  style={{ background: "url('e4ec22a31fc5546b68b5ef001ca6372b.jpg')" , backgroundSize:"cover" ,  width: "100%"}}>
+        <h1 className="w-1/3 mx-auto  text-center font-semibold text-dyc-red text-red-600">Purchase your favorite marvel charachter </h1>
+        <div className="w-1/3 mx-auto my-3">
           <input className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" placeholder="Iron man is the best !!!! " type="search" value={inputvalue} onChange={searchOnchange} />
         </div>
 
@@ -73,7 +73,7 @@ const SearchChara = () => {
                 <h1 className="text-lg text-center font-bold my-2">{x.name}  </h1>
                 <hr />
                 <h1 className=" text-center mx-auto text-sm my-4 italic">{x.description}</h1>
-                <Link href="./checkout">Buy now </Link>
+                <a className="inline-block border border-red-500 rounded py-1 px-3 bg-red-500 text-black mx-20" href="./checkout">Buy now </a>
 
               </div>
 
