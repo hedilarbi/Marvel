@@ -2,6 +2,7 @@ import Stripe from 'stripe';
 import { parseCookies, setCookie } from 'nookies';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
+import '../styles/tailwind.css'
 import CheckoutForm from '../component/checkoutForm';
 
 
