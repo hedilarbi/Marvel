@@ -1,0 +1,25 @@
+{
+  "name": "marveljs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.8.0",
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.8.5",
+    "axios": "^0.19.2",
+    "md5": "^2.2.1",
+    "next": "9.4.4",
+    "nookies": "^2.3.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-select": "^3.1.0",
+    "stripe": "^8.79.0",
+    "tailwindcss": "^1.5.2"
+  }
+}
