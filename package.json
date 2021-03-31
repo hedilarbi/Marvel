@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8080"
+    "start": "next start -p 8010"
   },
   "dependencies": {
     "@stripe/react-stripe-js": "^1.1.2",
