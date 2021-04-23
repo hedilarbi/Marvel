@@ -55,7 +55,7 @@ const SearchChara = () => {
     <>
 
       <div className="bg-fixed min-h-screen"  style={{ background: "url('e4ec22a31fc5546b68b5ef001ca6372b.jpg')" , backgroundSize:"cover" ,  width: "100%"}}>
-        <h1 className="w-1/3 mx-auto  text-center font-semibold text-dyc-red text-red-600">Purchase your favorite marvel charachter updated </h1>
+        <h1 className="w-1/3 mx-auto  text-center font-semibold text-dyc-red text-red-600">Purchase your favorite marvel charachter ti hayaaaaa </h1>
         <div className="w-1/3 mx-auto my-3">
           <input className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" placeholder="Iron man is the best !!!! " type="search" value={inputvalue} onChange={searchOnchange} />
         </div>
