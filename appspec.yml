@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/codedeploy/test
+    overwrite: true
 hooks:
   AfterInstall:
-    - location: ./script/AfterInstallHook.sh
-      timeout: 300
+    - location: /home/codedeploy/script/AfterInstallHook.sh 
 
