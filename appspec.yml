@@ -1,12 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: ./install.txt
-    destination: /tmp/CodeDeployExample
-hooks:
-  BeforeInstall:
-    - location: scripts/BeforeInstallHook.sh
-      timeout: 300
-  AfterInstall:
-    - location: scripts/AfterInstallHook.sh
-      timeout: 300
+  - source: /
+    destination: /home/codedeploy/test
+
