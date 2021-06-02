@@ -6,5 +6,5 @@ files:
     overwrite: true
 hooks:
   AfterInstall:
-    - location: /home/codedeploy/script/AfterInstallHook.sh 
+    - location: scripts/AfterInstallHook.sh 
 
