@@ -3,16 +3,3 @@ os: linux
 files:
   - source: ./install.txt
     destination: /tmp/CodeDeployExample
-hooks:
-  BeforeInstall:
-    - location: ./scripts/before-install.sh
-      timeout: 900
-  AfterInstall:
-    - location: ./scripts/after-install.sh
-      timeout: 900
-  ApplicationStart:
-    - location: ./scripts/application-start.sh
-      timeout: 900
-  ValidateService:
-    - location: ./scripts/validate-service.sh
-      timeout: 900
