@@ -4,9 +4,6 @@ files:
   - source: /
     destination: /home/codedeploy/test
 hooks:
-  BeforeInstall:
-    - location: ./script/BeforeInstallHook.sh
-      timeout: 300
   AfterInstall:
     - location: ./script/AfterInstallHook.sh
       timeout: 300
