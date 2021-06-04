@@ -5,8 +5,7 @@ files:
     destination: /home/codedeploy/test
     overwrite: true
 hooks:
-  BeforeInstall:
-    - location: scripts/BeforeInstallHook.sh
+ 
   AfterInstall:
     - location: scripts/AfterInstallHook.sh 
 
