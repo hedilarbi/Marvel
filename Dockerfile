@@ -12,6 +12,7 @@ WORKDIR /usr/src
 COPY . /usr/src
 
 # install dependencies
+RUN apt-get update -qq && apt-get install -y build-essential nodejs
 RUN npm install
 
 # start app
