@@ -11,7 +11,7 @@ WORKDIR /usr/src
 # copy source files
 COPY . /usr/src
 
-RUN npm build
+RUN npm run build
 # install dependencies
 
 RUN npm install
