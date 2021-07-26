@@ -17,5 +17,5 @@ RUN npm install
 
 # start app
 RUN npm run build
-EXPOSE 8081
+EXPOSE 8010
 CMD npm run start
